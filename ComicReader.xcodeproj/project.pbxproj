@@ -1,0 +1,444 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04ACB61D1A2D50DD00A9FAA6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04ACB61C1A2D50DD00A9FAA6 /* main.m */; };
+		04ACB6201A2D50DD00A9FAA6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04ACB61F1A2D50DD00A9FAA6 /* AppDelegate.m */; };
+		04ACB6231A2D50DD00A9FAA6 /* ComicReader.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 04ACB6211A2D50DD00A9FAA6 /* ComicReader.xcdatamodeld */; };
+		04ACB6261A2D50DD00A9FAA6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04ACB6251A2D50DD00A9FAA6 /* ViewController.m */; };
+		04ACB6291A2D50DD00A9FAA6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04ACB6271A2D50DD00A9FAA6 /* Main.storyboard */; };
+		04ACB62B1A2D50DD00A9FAA6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04ACB62A1A2D50DD00A9FAA6 /* Images.xcassets */; };
+		04ACB62E1A2D50DD00A9FAA6 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04ACB62C1A2D50DD00A9FAA6 /* LaunchScreen.xib */; };
+		04ACB63A1A2D50DD00A9FAA6 /* ComicReaderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04ACB6391A2D50DD00A9FAA6 /* ComicReaderTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		04ACB6341A2D50DD00A9FAA6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04ACB60F1A2D50DD00A9FAA6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04ACB6161A2D50DD00A9FAA6;
+			remoteInfo = ComicReader;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04ACB6171A2D50DD00A9FAA6 /* ComicReader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ComicReader.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04ACB61B1A2D50DD00A9FAA6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04ACB61C1A2D50DD00A9FAA6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		04ACB61E1A2D50DD00A9FAA6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		04ACB61F1A2D50DD00A9FAA6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		04ACB6221A2D50DD00A9FAA6 /* ComicReader.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ComicReader.xcdatamodel; sourceTree = "<group>"; };
+		04ACB6241A2D50DD00A9FAA6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		04ACB6251A2D50DD00A9FAA6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		04ACB6281A2D50DD00A9FAA6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		04ACB62A1A2D50DD00A9FAA6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		04ACB62D1A2D50DD00A9FAA6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		04ACB6331A2D50DD00A9FAA6 /* ComicReaderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ComicReaderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04ACB6381A2D50DD00A9FAA6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04ACB6391A2D50DD00A9FAA6 /* ComicReaderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ComicReaderTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04ACB6141A2D50DD00A9FAA6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04ACB6301A2D50DD00A9FAA6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04ACB60E1A2D50DD00A9FAA6 = {
+			isa = PBXGroup;
+			children = (
+				04ACB6191A2D50DD00A9FAA6 /* ComicReader */,
+				04ACB6361A2D50DD00A9FAA6 /* ComicReaderTests */,
+				04ACB6181A2D50DD00A9FAA6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		04ACB6181A2D50DD00A9FAA6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04ACB6171A2D50DD00A9FAA6 /* ComicReader.app */,
+				04ACB6331A2D50DD00A9FAA6 /* ComicReaderTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04ACB6191A2D50DD00A9FAA6 /* ComicReader */ = {
+			isa = PBXGroup;
+			children = (
+				04ACB61E1A2D50DD00A9FAA6 /* AppDelegate.h */,
+				04ACB61F1A2D50DD00A9FAA6 /* AppDelegate.m */,
+				04ACB6241A2D50DD00A9FAA6 /* ViewController.h */,
+				04ACB6251A2D50DD00A9FAA6 /* ViewController.m */,
+				04ACB6271A2D50DD00A9FAA6 /* Main.storyboard */,
+				04ACB62A1A2D50DD00A9FAA6 /* Images.xcassets */,
+				04ACB62C1A2D50DD00A9FAA6 /* LaunchScreen.xib */,
+				04ACB6211A2D50DD00A9FAA6 /* ComicReader.xcdatamodeld */,
+				04ACB61A1A2D50DD00A9FAA6 /* Supporting Files */,
+			);
+			path = ComicReader;
+			sourceTree = "<group>";
+		};
+		04ACB61A1A2D50DD00A9FAA6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				04ACB61B1A2D50DD00A9FAA6 /* Info.plist */,
+				04ACB61C1A2D50DD00A9FAA6 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		04ACB6361A2D50DD00A9FAA6 /* ComicReaderTests */ = {
+			isa = PBXGroup;
+			children = (
+				04ACB6391A2D50DD00A9FAA6 /* ComicReaderTests.m */,
+				04ACB6371A2D50DD00A9FAA6 /* Supporting Files */,
+			);
+			path = ComicReaderTests;
+			sourceTree = "<group>";
+		};
+		04ACB6371A2D50DD00A9FAA6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				04ACB6381A2D50DD00A9FAA6 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04ACB6161A2D50DD00A9FAA6 /* ComicReader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04ACB63D1A2D50DD00A9FAA6 /* Build configuration list for PBXNativeTarget "ComicReader" */;
+			buildPhases = (
+				04ACB6131A2D50DD00A9FAA6 /* Sources */,
+				04ACB6141A2D50DD00A9FAA6 /* Frameworks */,
+				04ACB6151A2D50DD00A9FAA6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ComicReader;
+			productName = ComicReader;
+			productReference = 04ACB6171A2D50DD00A9FAA6 /* ComicReader.app */;
+			productType = "com.apple.product-type.application";
+		};
+		04ACB6321A2D50DD00A9FAA6 /* ComicReaderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04ACB6401A2D50DD00A9FAA6 /* Build configuration list for PBXNativeTarget "ComicReaderTests" */;
+			buildPhases = (
+				04ACB62F1A2D50DD00A9FAA6 /* Sources */,
+				04ACB6301A2D50DD00A9FAA6 /* Frameworks */,
+				04ACB6311A2D50DD00A9FAA6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04ACB6351A2D50DD00A9FAA6 /* PBXTargetDependency */,
+			);
+			name = ComicReaderTests;
+			productName = ComicReaderTests;
+			productReference = 04ACB6331A2D50DD00A9FAA6 /* ComicReaderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04ACB60F1A2D50DD00A9FAA6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = Mac;
+				TargetAttributes = {
+					04ACB6161A2D50DD00A9FAA6 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					04ACB6321A2D50DD00A9FAA6 = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = 04ACB6161A2D50DD00A9FAA6;
+					};
+				};
+			};
+			buildConfigurationList = 04ACB6121A2D50DD00A9FAA6 /* Build configuration list for PBXProject "ComicReader" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04ACB60E1A2D50DD00A9FAA6;
+			productRefGroup = 04ACB6181A2D50DD00A9FAA6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04ACB6161A2D50DD00A9FAA6 /* ComicReader */,
+				04ACB6321A2D50DD00A9FAA6 /* ComicReaderTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04ACB6151A2D50DD00A9FAA6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04ACB6291A2D50DD00A9FAA6 /* Main.storyboard in Resources */,
+				04ACB62E1A2D50DD00A9FAA6 /* LaunchScreen.xib in Resources */,
+				04ACB62B1A2D50DD00A9FAA6 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04ACB6311A2D50DD00A9FAA6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04ACB6131A2D50DD00A9FAA6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04ACB6201A2D50DD00A9FAA6 /* AppDelegate.m in Sources */,
+				04ACB6231A2D50DD00A9FAA6 /* ComicReader.xcdatamodeld in Sources */,
+				04ACB6261A2D50DD00A9FAA6 /* ViewController.m in Sources */,
+				04ACB61D1A2D50DD00A9FAA6 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04ACB62F1A2D50DD00A9FAA6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04ACB63A1A2D50DD00A9FAA6 /* ComicReaderTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		04ACB6351A2D50DD00A9FAA6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04ACB6161A2D50DD00A9FAA6 /* ComicReader */;
+			targetProxy = 04ACB6341A2D50DD00A9FAA6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		04ACB6271A2D50DD00A9FAA6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04ACB6281A2D50DD00A9FAA6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		04ACB62C1A2D50DD00A9FAA6 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04ACB62D1A2D50DD00A9FAA6 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		04ACB63B1A2D50DD00A9FAA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		04ACB63C1A2D50DD00A9FAA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04ACB63E1A2D50DD00A9FAA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ComicReader/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		04ACB63F1A2D50DD00A9FAA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ComicReader/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		04ACB6411A2D50DD00A9FAA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ComicReaderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ComicReader.app/ComicReader";
+			};
+			name = Debug;
+		};
+		04ACB6421A2D50DD00A9FAA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ComicReaderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ComicReader.app/ComicReader";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04ACB6121A2D50DD00A9FAA6 /* Build configuration list for PBXProject "ComicReader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04ACB63B1A2D50DD00A9FAA6 /* Debug */,
+				04ACB63C1A2D50DD00A9FAA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04ACB63D1A2D50DD00A9FAA6 /* Build configuration list for PBXNativeTarget "ComicReader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04ACB63E1A2D50DD00A9FAA6 /* Debug */,
+				04ACB63F1A2D50DD00A9FAA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		04ACB6401A2D50DD00A9FAA6 /* Build configuration list for PBXNativeTarget "ComicReaderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04ACB6411A2D50DD00A9FAA6 /* Debug */,
+				04ACB6421A2D50DD00A9FAA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		04ACB6211A2D50DD00A9FAA6 /* ComicReader.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				04ACB6221A2D50DD00A9FAA6 /* ComicReader.xcdatamodel */,
+			);
+			currentVersion = 04ACB6221A2D50DD00A9FAA6 /* ComicReader.xcdatamodel */;
+			path = ComicReader.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 04ACB60F1A2D50DD00A9FAA6 /* Project object */;
+}
